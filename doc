@@ -1,0 +1,22 @@
+
+# website to test different type of request
+https://hoppscotch.io/
+
+# to test different host :
+curl -I -k -H "Host:cdn.site.com" 127.0.0.1:8000
+
+# to test body size
+curl -X POST -H "Content_Type:plain/text" --data "123456789"
+
+# nginx tester
+https://nginx.viraptor.info/
+
+https://stackoverflow.com/questions/15560336/listen-to-multiple-ports-from-one-server
+https://kernal.eu/posts/listen-on-multiple-sockets/
+
+Reste a faire :
+
+- gérer plusieurs ports
+- la requete est parfois splité
+- siege sur les pc de l'ecole
+- passer l'argv dans le main

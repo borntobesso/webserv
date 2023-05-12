@@ -1,0 +1,13 @@
+h1{
+	font-family: helvetica;
+	font-style: italic;
+	font-size: 3em;
+	text-align: center;
+	background: linear-gradient(90deg, #FF7400, #D8D800);
+}
+.Select{
+	font-size: 1.5em;
+	font-weight: 800;
+	text-decoration: underline;
+	text-align: center;
+}
